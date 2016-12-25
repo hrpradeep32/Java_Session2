@@ -1,0 +1,30 @@
+
+import java.util.Scanner;
+
+public class High 
+{
+	public static void main(String[] args) 
+	{
+		{
+			int x,y,z,largest;
+			Scanner s = new Scanner(System.in);
+			System.out.println("Enter any three numbers: ");
+			x=s.nextInt();
+			y=s.nextInt();
+			z=s.nextInt();
+
+			if(x>=y && x>=z) 
+			{
+			System.out.println("Highest number: "+x);
+			}
+			if(y>=x && y>=z) 
+			{
+			System.out.println("Highest number: "+y);
+			}
+			if(z>=x && z>=y) 
+			{
+			System.out.println("Highest number: "+z);
+			}
+		}
+	}
+}
